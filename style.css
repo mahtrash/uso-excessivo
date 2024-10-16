@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: rgb(20, 0, 90);
+}
+
+form{
+
+background-color: rgb(80, 63, 173);
+padding: 25px;
+border-radius: 10px;
+max-width: 400px;
+margin: auto;
+box-shadow: 0 0 10px rgb(57, 47, 197);
+}
+
+label{
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px 0;
+},
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="url"],
+input[type="tel"],
+input[type="date"],
+input[type="color"],
+select,
+textarea{
+    padding:8px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: calc(100% - 25px);
+}
+
+input[type="range"]{
+width: 100%;
+margin-bottom: 10px
+}
+
+input[type="file"]{
+    margin-top: 10px;
+}
+
+button{
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(166, 70, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: rgb(194, 128, 255);
+}
+
+.small-input{
+    width: auto;
+    display: inline-block;
+}
+
+.inline-label{
+    display: inline-block;
+    margin-right: 10px;
+}

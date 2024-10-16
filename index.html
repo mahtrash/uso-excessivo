@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    
+<h1>Formulario</h1>
+
+<form action="#" method="post">
+
+<label for="nome"> Nome: </label>
+<input type="text" name="nome" id="nome"
+placeholder="digite seu nome">
+
+<br>
+
+<label for="senha">Senha:</label>
+<input type="password" name="senha" id="senha"
+placeholder="digite sua senha">
+
+<br>
+
+<label for="email">E-mail</label>
+<input type="email" name="email" id="email"
+placeholder="Digite seu e-mail">
+
+<br>
+
+<label for="idade">idade</label>
+<input type="number" name="idade" id="idade"
+placeholder="digite sua idade" min="18"
+max="100" class="small-input">
+
+<br>
+
+<label for="website">website:</label>
+<input type="url" name="website" id="website"
+placeholder="https://">
+
+<br>
+
+<label for="telefone">telefone:</label>
+<input type="tel" name="telefone" id="telefone"
+placeholder="(xx) xxxxx-xxxx">
+
+<br>
+
+<label for="termos">ceito os termos:</label>
+<input type="checkbox" name="termos" id="termos">
+
+<br>
+
+<label for="genero">gênero</label>
+
+<input type="radio" name="genero" id=" masculino" class="small-input" value="masculino">
+<label for="masculino" class="inline-label">masculino</label>
+
+<input type="radio" name="genero" volue="feminino"
+ class="small-input">
+ <label for="feminino"class="inline-label">feminino</label>
+
+ <input type="radio" name="genero" id="outros" value="outros"
+ class="small-input">
+ <label for="outros" class="inline-label">outros</label>
+
+<br>
+
+<label for="data-nacimento">data-nacimento</label>
+<input type="date" name="data-nacimento" id="data-nacimento">
+
+<br>
+<label for="cor-favorita">cor favorita</label>
+<input type="color" name="cor-favorita" id="cor favorita">
+
+<br>
+<label for="satisfacao">satisfação(0 a 10):</label>
+<input type="range" name="satifacao" id="satifacao" min="0" max="10">
+
+<br>
+
+<label for="comentario">comentario</label> <br>
+
+<textarea name="coementario" id="comentario" rows="4" placeholder="escreva seu comentario"></textarea>
+
+<br>
+
+<label for="pais">pais:</label>
+
+<select name="pais" id="pais">
+<option value="brasil">Brasil</option>
+<option value="eua">Estados Unidos</option>
+<option value="canada">Canadá</option>
+<option value="china">China</option>
+<option value="mexico">México</option>
+
+<br>
+
+<label for="arquivo">carregar arquivo:</label>
+<input type="file" name="arquivo" id="arquivo">
+
+<br><br>
+
+<button type="submit">enviar</button>
+
+</select>
+
+
+
+
+</form>
+
+
+</body>
+</html>
